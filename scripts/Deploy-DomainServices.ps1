@@ -6,6 +6,9 @@ Configuration Deploy-DomainServices
         [String] $domainFQDN,
 
         [Parameter(Mandatory)]
+        [String] $computerName,
+        
+        [Parameter(Mandatory)]
         [System.Management.Automation.PSCredential] $adminCredential
     )
 
