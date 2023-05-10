@@ -11,7 +11,7 @@ Configuration Deploy-DomainServices
         [Parameter(Mandatory)]
         [System.Management.Automation.PSCredential] $adminCredential
     )
-
+    
     Import-DscResource -ModuleName 'PSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'ActiveDirectoryDsc'
     Import-DscResource -ModuleName 'ComputerManagementDsc'
